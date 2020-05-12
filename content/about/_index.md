@@ -1,7 +1,7 @@
 ---
 title: "소개"
 date: 2020-05-12T19:04:44+09:00
-draft: true
+draft: false
 ---
 
 구성원
