@@ -25,7 +25,7 @@ googleAnalytics = "UA-166256891-1"
   [[menu.main]]
     name = "글"
     identifier = "archive"
-    url = "/posts/"
+    url = "/post/"
     weight = 3
 
 [taxonomies]
