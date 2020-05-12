@@ -4,8 +4,8 @@ title = "Golden Goose Lab"
 theme = "anubis"
 paginate = 5
 
-disqusShortname = ""
-googleAnalytics = ""
+disqusShortname = "golden-goose-lab"
+googleAnalytics = "UA-166256891-1"
 
 [author]
   name = "Golden Goose Lab"

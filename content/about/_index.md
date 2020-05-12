@@ -9,5 +9,5 @@ draft: false
 
 ### 구성원
 * 김도현 - [Github](https://github.com/dohvis)
-* 박아윤 - [Github](https://github.com/Parkayun)
+* 박아윤 - [Github](https://github.com/Parkayun), [Homepage](https://parkayun.kr)
 * 염석준 - [Github](https://github.com/SeokJunYeom)
