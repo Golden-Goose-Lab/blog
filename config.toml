@@ -1,3 +1,55 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "httpss://golden-goose-lab.github.io"
+title = "골든 구스 랩 :: 황금 거위 연구소 :: Golden Goose Lab"
+languageCode = "ko"
+DefaultContentLanguage = "ko" # Change this to change the site's language
+theme = "hugo.386"
+preserveTaxonomyNames = true
+
+[params]
+    # The name to display as main title in the home page
+    mainpagetitle = "골든 구스 랩에 오신것을 환영합니다."
+
+    # The subtitle to display under the title in the home page
+    mainpagesubtitle = "황금알을 낳는 기술을 연구하는 황금 거위 연구소 입니다. 구스 아일랜드 개꿀맛" 
+
+    # The description of your website. It will be displayed in the home page
+    mainpagedesc = "저희 팀은 현재 대신증권 크레온 주식 트레이딩 시스템의 파이썬 패키지를 만드는데 초점을 두고 있습니다."
+
+    # The name to display in the copyright section in the footer
+    copyrightname = "Golden Goose Lab"
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    copyrighturl = "httpss://golden-goose-lab.github.io"
+
+    # Show the "built on Hugo" disclaimer
+    showhugo = false
+
+    # Urls for social networks
+    github = "https://github.com/Golden-Goose-Lab"
+
+    # Enables or disables the loading animations. false activates them. Default is false.
+    loadfastload = false
+
+    # Sets the speed for the page loading effect. Default is 1.0.
+    loadspeedfactor = 3.0
+
+    # Enables or disables the second flyby cursor. Default is false.
+    loadonepass = true
+
+[menu]
+  # This displays buttons in the navbar to access your contents
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About"       # A display name for the button
+    url = "/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "All posts"
+    url = "/post/"       # The path can lead to a content folder too.
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
